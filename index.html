@@ -7,24 +7,25 @@
     <title>Mock Form</title>
   </head>
   <body>
-    <head>
-      <h1>Mock Form</h1>
-    </head>
-    <main>
-      <form novalidate>
-          <input id="email" type="email" placeholder="Email" required>
-          <span id="email-error" class="error-message"></span>
-          <input id="country" type="text" placeholder="Country" required pattern="[a-zA-Z]+">
-          <span id="country-error" class="error-message"></span>
-          <input id="postcode" type="text" placeholder="Post Code" required pattern="[a-z]+[0-9]+\s{0,1}[0-9]+[a-z]+">
-          <span id="postcode-error" class="error-message"></span>
-          <input id="password" type="password" placeholder="Password" required minlength="8">
-          <span id="password-error" class="error-message"></span>
-          <input id="confirm-password" type="password" placeholder="Confirm Password" required minlength="8">
-          <span id="confirm-password-error" class="error-message"></span>
-          <input id="submit-form" type="submit">
-      </form>
-    </main>
-
+    <div class="stripe">
+      <header>
+        <h1>Mock Form</h1>
+      </header>
+      <main>
+        <form novalidate>
+            <input id="email" type="email" placeholder="Email" required>
+            <span id="email-error" class="error-message"></span>
+            <input id="country" type="text" placeholder="Country" required pattern="[a-zA-Z]+">
+            <span id="country-error" class="error-message"></span>
+            <input id="postcode" type="text" placeholder="Post Code" required pattern="[a-z]+[0-9]+\s{0,1}[0-9]+[a-z]+">
+            <span id="postcode-error" class="error-message"></span>
+            <input id="password" type="password" placeholder="Password" required minlength="8">
+            <span id="password-error" class="error-message"></span>
+            <input id="confirm-password" type="password" placeholder="Confirm Password" required minlength="8">
+            <span id="confirm-password-error" class="error-message"></span>
+            <input id="submit-form" type="submit">
+        </form>
+      </main>
+    </div>
   </body>
 </html>

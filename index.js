@@ -130,7 +130,7 @@ form.addEventListener('submit', (e) => {
     confirmPasswordError.innerText = 'Everything looks good!';
     confirmPasswordError.style.color = 'green';
   } else {
-    confirmPasswordError.innerText = 'Something doesn\t look right!'
+    confirmPasswordError.innerText = 'Something doesn\'t look right!'
   }
 
 });

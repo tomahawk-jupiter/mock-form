@@ -1,6 +1,28 @@
 :root {
   font-family: calibri, arial, sans-serif;
 }
+body {
+  display: flex;
+  justify-content: center;
+  background-color: #228ddd;
+  padding: 0;
+  margin: 0;
+}
+.stripe {
+  width: 400px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 10px 10px 10px #3d506e, -10px 10px 10px #3d506e;
+}
+header {
+  display: flex;
+  justify-content: center;
+  width: 250px;
+}
 main {
   display: flex;
   justify-content: center;
@@ -9,7 +31,6 @@ form {
   display: flex;
   flex-direction: column;
 }
-
 input {
   font-size: 16px;
   border-radius: 16px;
@@ -33,6 +54,9 @@ input:focus {
   height: 40px;
   align-self: center;
   margin-top: 30px;
+  background-color: #35af63;
+  color: white;
+  box-shadow: 5px 5px 20px -10px black;
 }
 .error-message {
   color: red;
