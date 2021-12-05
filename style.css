@@ -1,0 +1,39 @@
+:root {
+  font-family: calibri, arial, sans-serif;
+}
+main {
+  display: flex;
+  justify-content: center;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  font-size: 16px;
+  border-radius: 16px;
+  padding: 8px 16px;
+  width: 250px;
+  height: 30px;
+  margin-bottom: 5px;
+  border: solid #ddd 2px;
+}
+input:focus {
+  box-shadow: 0 0 0 4px #0084ff80;
+  outline: none;
+}
+.error {
+  border: solid red 2px;
+}
+.valid {
+  border: solid green 2px;
+}
+#submit-form {
+  height: 40px;
+  align-self: center;
+  margin-top: 30px;
+}
+.error-message {
+  color: red;
+}
