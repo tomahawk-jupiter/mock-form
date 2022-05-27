@@ -1,5 +1,5 @@
 :root {
-  font-family: calibri, arial, sans-serif;
+  font-family: arial, sans-serif;
 }
 body {
   display: flex;
@@ -8,15 +8,17 @@ body {
   padding: 0;
   margin: 0;
 }
-.stripe {
+.form-container {
   width: 400px;
-  height: 100vh;
+  padding-bottom: 2rem;
+  margin-top: 2rem;
   display: flex;
   flex-direction: column;
   background-color: white;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   box-shadow: 10px 10px 10px #3d506e, -10px 10px 10px #3d506e;
+  border-radius: 20px;
 }
 header {
   display: flex;
@@ -54,9 +56,14 @@ input:focus {
   height: 40px;
   align-self: center;
   margin-top: 30px;
-  background-color: #35af63;
+  background-color: #138d41;
   color: white;
   box-shadow: 5px 5px 20px -10px black;
+  cursor: pointer;
+  font-weight: 700;
+}
+#submit-form:hover {
+  background-color: #027c30;
 }
 .error-message {
   color: red;
